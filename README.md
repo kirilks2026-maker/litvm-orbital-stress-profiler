@@ -47,19 +47,23 @@ To discover the absolute operational breaking point of the Caldera HTTP gateway,
 
 ### 1. Installation
 ```bash
-git clone [https://github.com/kirilks2026-maker/litvm-orbital-stress-profiler.git](https://github.com/kirilks2026-maker/litvm-orbital-stress-profiler.git)
+git clone https://github.com/kirilks2026-maker/litvm-orbital-stress-profiler.git
 cd litvm-orbital-stress-profiler
 npm install
 ```
 
 2. Configuration
 Create a .env file in the root directory:
+```
 PRIVATE_KEY=your_autonomous_agent_private_key_here
 RPC_URL=[https://liteforge.rpc.caldera.xyz/http](https://liteforge.rpc.caldera.xyz/http)
 CONTRACT_ADDRESS=0xd1837aBD2E9796900DeE10DC6C1D70833a1eE291
+```
 
-3. Execution
+4. Execution
 Run the production-grade Epoch 3 profiler:
+```
 node profiler.js
+```
 
 Disclaimer: This profiler is engineered purely for public infrastructure research and network optimization diagnostics on the LitVM LiteForge Testnet environment.
