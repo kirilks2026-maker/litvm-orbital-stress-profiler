@@ -50,7 +50,7 @@ To discover the absolute operational breaking point of the Caldera HTTP gateway,
 git clone [https://github.com/kirilks2026-maker/litvm-orbital-stress-profiler.git](https://github.com/kirilks2026-maker/litvm-orbital-stress-profiler.git)
 cd litvm-orbital-stress-profiler
 npm install
-```
+
 
 2. Configuration
 Create a .env file in the root directory:
