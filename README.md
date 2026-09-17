@@ -55,9 +55,9 @@ npm install
 2. Configuration
 Create a .env file in the root directory:
 ```
-PRIVATE_KEY=your_autonomous_agent_private_key_here
-RPC_URL=[https://liteforge.rpc.caldera.xyz/http](https://liteforge.rpc.caldera.xyz/http)
+RPC_URL=https://liteforge.rpc.caldera.xyz/http
 CONTRACT_ADDRESS=0xd1837aBD2E9796900DeE10DC6C1D70833a1eE291
+PRIVATE_KEY=your_autonomous_agent_private_key_here
 ```
 
 4. Execution
