@@ -34,8 +34,11 @@ To discover the absolute operational breaking point of the Caldera HTTP gateway,
 ## 📂 Repository Structure
 
 - `profiler.js` — The primary Epoch 3 execution engine featuring strict sequence stabilization.
-- `package.json` — Environment dependencies (`ethers.js` v5, `dotenv`).
-- `.env.example` — Configuration template for target deployment.
+- `package.json` — Environment configuration and core dependencies (`ethers.js` v5, `dotenv`).
+- `package-lock.json` — Lockfile pinning exact dependency versions for reproducible runs.
+- `.env.example` — Configuration template for target deployment parameters.
+- `.gitignore` — Ignore rules for `node_modules` and local secrets (`.env`).
+- `LICENSE` — Project open-source license.
 
 ---
 
