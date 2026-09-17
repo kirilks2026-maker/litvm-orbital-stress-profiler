@@ -1,0 +1,31 @@
+{
+  "name": "litvm-orbital-stress-profiler",
+  "version": "1.0.0",
+  "description": "Infrastructure stress profiling framework for LitVM LiteForge RPC",
+  "main": "profiler.js",
+  "scripts": {
+    "start": "node profiler.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirilks2026-maker/litvm-orbital-stress-profiler.git"
+  },
+  "keywords": [
+    "litvm",
+    "caldera",
+    "ethers",
+    "stress-profiler",
+    "erc-8004"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kirilks2026-maker/litvm-orbital-stress-profiler/issues"
+  },
+  "homepage": "https://github.com/kirilks2026-maker/litvm-orbital-stress-profiler#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "ethers": "^5.8.0"
+  }
+}
